@@ -18,9 +18,10 @@ using namespace std;
 
 const string FILENAME = "commands.txt";
 /**********************************************************************
- * Add text here to describe what the function "main" does. Also don't forget
- * to fill this out with meaningful text or YOU WILL LOSE POINTS.
- ***********************************************************************/
+* Make sure your commands.txt has the file path to the shortcut that you use
+* to launch 2142. It should then open it in the custom resolution you
+* have in your shortcut path.
+***********************************************************************/
 int main()
 {
    ifstream fin(FILENAME);
